@@ -71,4 +71,4 @@ jobs:
           sudo docker pull ruslanrr/infra_action:v0.1
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 ruslanrr/infra_action:v0.1
+          sudo docker run --rm -d -p 5000:5000 ruslanrr/infra_action:v0.1 
